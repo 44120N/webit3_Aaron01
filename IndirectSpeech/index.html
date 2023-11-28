@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <!-- remixIcon -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <!-- styleSheet -->
+        <link rel="stylesheet" href="../stylesheet.css">
+        <link rel="stylesheet" href="table.css">
+        <title>Indirect Speech</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <i class="ri-terminal-box-fill"></i> Ren Dev
+                    </a>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__burger"></i>
+                        <i class="ri-close-line nav__close"></i>
+                    </div>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="../index.html" class="nav__link">Home</a></li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                INF <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../HTML/index.html" class="dropdown__link">
+                                        <i class="ri-html5-line"></i> HTML
+                                    </a>
+                                </li>
+      
+                                <li>
+                                    <a href="../CSS/index.html" class="dropdown__link">
+                                        <i class="ri-css3-line"></i> CSS
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                MTKL <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../Lingkaran/index.html" class="dropdown__link">
+                                        <i class="ri-checkbox-blank-circle-line"></i> Lingkaran
+                                    </a>
+                                </li>
+      
+                                <li class="dropdown__subitem">
+                                    <div class="dropdown__link">
+                                        <i class="ri-line-chart-line"></i> Garis <i class="ri-add-line dropdown__add"></i>
+                                    </div>
+                                    <ul class="dropdown__submenu">
+                                        <li>
+                                            <a href="../Garis-Polar/index.html" class="dropdown__sublink">Garis Polar</a>
+                                        </li>
+      
+                                        <li>
+                                            <a href="../Garis-Singgung/index.html" class="dropdown__sublink">Garis Singgung</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                FIS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../Gaya-Gravitasi/index.html" class="dropdown__link">
+                                        <i class="ri-planet-line"></i> Gaya Gravitasi
+                                    </a>
+                                </li>
+      
+                                <li>
+                                    <a href="../Usaha-Energi/index.html" class="dropdown__link">
+                                        <i class="ri-lightbulb-flash-line"></i> Usaha & Energi
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                MTK <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../Statistika/index.html" class="dropdown__link">
+                                        <i class="ri-bar-chart-fill"></i> Statistika
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="../Matriks/index.html" class="dropdown__link">
+                                        <i class="ri-bar-chart-fill"></i> Matriks
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                Grammar <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../PassiveVoice/index.html" class="dropdown__link">
+                                        <i class="ri-paragraph"></i> Passive Voice
+                                    </a>
+                                </li>
+      
+                                <li>
+                                    <a href="../IndirectSpeech/index.html" class="dropdown__link">
+                                        <i class="ri-chat-quote-line"></i> Indirect Speech
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li><a href="../AboutMe/index.html" class="nav__link">About Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="heading">
+            <h1 id="title"><span class="auto-type"></h1>
+        </div>
+
+        <div class="main">
+            <div class="row">
+                <div class="leftcolumn">
+                    <div id="c1" class="card reveal">
+                        <div class="title">What did he say</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>Method</th>
+                                <th>How</th>
+                            </tr>
+                            <tr>
+                                <td>Direct Speech</td>
+                                <td>Repeating the words spoken.</td>
+                            </tr>
+                            <tr>
+                                <td>Indirect Speech</td>
+                                <td>Reporting the words spoken.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="c2" class="card reveal">
+                        <div class="title">Direct Speech VS Indirect Speech</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>Direct Speech</th>
+                                <th>Indirect Speech</th>
+                            </tr>
+                            <tr>
+                                <td>He said, "I saw her."</td>
+                                <td>He said that he had seen her</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="c3" class="card reveal">
+                        <div class="title">Tenses</div>
+                        <div class="lineh"></div>
+                        <p>Cycle: Present → Past → Past Perfect</p>
+                        <table>
+                            <tr>
+                                <th>Direct Speech</th>
+                                <th>Indirect Speech</th>
+                            </tr>
+                            <tr>
+                                <td>Simple Present</td>
+                                <td>Simple Past</td>
+                            </tr>
+                            <tr>
+                                <td>"I always drink coffee", she said.</td>
+                                <td>She said that she always drank coffee.</td>
+                            </tr>
+                            <tr>
+                                <td>Present Continuous</td>
+                                <td>Past Continuous</td>
+                            </tr>
+                            <tr>
+                                <td>"I am reading a book", he explained.</td>
+                                <td>He explained that he was reading a book.</td>
+                            </tr>
+                            <tr>
+                                <td>Simple Past</td>
+                                <td>Past Perfect</td>
+                            </tr>
+                            <tr>
+                                <td>"Bill arrived on Saturday", he said.</td>
+                                <td>He said that Bill had arrived on Saturday.</td>
+                            </tr>
+                            <tr>
+                                <td>Present Perfect</td>
+                                <td>Past Perfect</td>
+                            </tr>
+                            <tr>
+                                <td>"I have been to Spain", he told me.</td>
+                                <td>He told me that he had been to Spain.</td>
+                            </tr>
+                            <tr>
+                                <td>Past Perfect</td>
+                                <td>Past Perfect</td>
+                            </tr>
+                            <tr>
+                                <td>"I had just turned out the light," he explained</td>
+                                <td>He explained that he had just turned out the light.</td>
+                            </tr>
+                            <tr>
+                                <td>Present Perfect Continuous</td>
+                                <td>Past Perfect Continuous</td>
+                            </tr>
+                            <tr>
+                                <td>They complained, "We have been waiting for hours".</td>
+                                <td>They complained that they had been waiting for hours.</td>
+                            </tr>
+                            <tr>
+                                <td>Past Continuous</td>
+                                <td>Past Perfect Continuous</td>
+                            </tr>
+                            <tr>
+                                <td>"We were living in Paris", they told me.</td>
+                                <td>They told me that they had been living in Paris.</td>
+                            </tr>
+                            <tr>
+                                <td>Future</td>
+                                <td>Present Conditional</td>
+                            </tr>
+                            <tr>
+                                <td>"I will be in Geneva on Monday", he said.</td>
+                                <td>He said that he would be in Geneva on Monday.</td>
+                            </tr>
+                            <tr>
+                                <td>Future Continuous</td>
+                                <td>Conditional Continuous</td>
+                            </tr>
+                            <tr>
+                                <td>She said, "I'll be using the car next Friday".</td>
+                                <td>She said that she would be using the car next Friday.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="c4" class="card reveal">
+                        <div class="title">Time and Place</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>Direct Speech</th>
+                                <th>Indirect Speech</th>
+                            </tr>
+                            <tr>
+                                <td>today</td>
+                                <td>that day</td>
+                            </tr>
+                            <tr>
+                                <td>yesterday</td>
+                                <td>the day before</td>
+                            </tr>
+                            <tr>
+                                <td>the day before yesterday</td>
+                                <td>two days before</td>
+                            </tr>
+                            <tr>
+                                <td>tomorrow</td>
+                                <td>the next/following day</td>
+                            </tr>
+                            <tr>
+                                <td>the day after tomorrow</td>
+                                <td>in two days time/ two days later</td>
+                            </tr>
+                            <tr>
+                                <td>next week/month/year</td>
+                                <td>the following week/month/year</td>
+                            </tr>
+                            <tr>
+                                <td>last week/month/year</td>
+                                <td>the previous week/month/year</td>
+                            </tr>
+                            <tr>
+                                <td>ago</td>
+                                <td>before</td>
+                            </tr>
+                            <tr>
+                                <td>this (time)</td>
+                                <td>that</td>
+                            </tr>
+                            <tr>
+                                <td>this/that (adjective)</td>
+                                <td>the</td>
+                            </tr>
+                            <tr>
+                                <td>here</td>
+                                <td>there</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="c5" class="card reveal">
+                        <div class="title">Personal Pronouns</div>
+                        <div class="lineh"></div>
+                        <div class="center">
+                            <ul>
+                                <li>I/me/my/mine, you/your/yours = him/his/her/hers</li>
+                                <li>we/us/our/ours, you/your/yours = they/their/theirs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="c6" class="card reveal">
+                        <div class="title">WH Question</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>Direct Speech</th>
+                                <th>Indirect Speech</th>
+                            </tr>
+                            <tr>
+                                <td>"Where are you going?", she asked.</td>
+                                <td>She asked where I was going.</td>
+                            </tr>
+                            <tr>
+                                <td>"Why is she studying?", he asked.</td>
+                                <td>He asked why she was studying.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="c7" class="card reveal">
+                        <div class="title">Yes/No Question</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>Direct Speech</th>
+                                <th>Indirect Speech</th>
+                            </tr>
+                            <tr>
+                                <td>He asked me, "Do you speak English?"</td>
+                                <td>He asked me if I spoke English.</td>
+                            </tr>
+                            <tr>
+                                <td>"Have you got a computer?", he asked.</td>
+                                <td>He asked me whether I had a computer.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="c8" class="card reveal">
+                        <div class="title">Order</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>Direct Speech</th>
+                                <th>Indirect Speech</th>
+                            </tr>
+                            <tr>
+                                <td>He asked me, "Be quiet!"</td>
+                                <td>He asked me to be quiet.</td>
+                            </tr>
+                            <tr>
+                                <td>The man said to us, "Don't move!"</td>
+                                <td>The man warned us not to move.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="rightcolumn">
+                    <div class="card reveal" id="about">
+                        <h2 style="text-align: center;">About Me</h2>
+                        <div class="center">
+                        <img id="img" src="../img/me.jpg">
+                        </div>
+                        <p style="text-align: center;">Mathematician</p>
+                        <p style="text-align: center;">Python Developer</p>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Contents</h3>
+                        <ol type="1" class="list">
+                            <li><a href="#c1">What did he say</a></li>
+                            <li><a href="#c2">Direct Speech VS Indirect Speech</a></li>
+                            <li><a href="#c3">Tenses</a></li>
+                            <li><a href="#c4">Time and Place</a></li>
+                            <li><a href="#c5">Personal Pronouns</a></li>
+                            <li><a href="#c6">WH Question</a></li>
+                            <li><a href="#c7">Yes/No Question</a></li>
+                            <li><a href="#c8">Order</a></li>
+                        </ol>
+                    </div>
+                    <div class="card reveal">
+                        <h3>References</h3>
+                        <ol type="1" class="list">
+                            <li><a href="#">Canisius College Grade 11 Grammar Module</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li><a href="https://wa.me/628159293778/"><i class="ri-whatsapp-line"></i></a></li>
+                <li><a href="https://www.instagram.com/aaronh28/"><i class="ri-instagram-line"></i></a></li>
+                <li><a href="https://github.com/44120N"><i class="ri-github-fill"></i></a></li>
+            </ul>
+            <p style="margin-bottom: 0;">© Copyright 2023 | All Rights Reserved</p>
+            <p>Aaron Hartono</p>
+        </footer>
+        
+        <!-- navBar -->
+        <script src="../JS/navbar.js"></script>
+
+        <!-- autoType -->
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Indirect Speech"],
+                typeSpeed: 50,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+
+        <!-- animationReveal -->
+        <script src="../JS/animation.js"></script>
+    </body>
+</html>
