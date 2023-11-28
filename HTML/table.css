@@ -1,0 +1,37 @@
+/* heading */
+.heading {
+    display: flex;
+    margin-top: var(--header-height);
+    justify-content: center;
+    align-items: center;
+    background: url(header.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 100vh;
+}
+
+/* table */
+table{
+    margin-top: 2%;
+    width: 100%;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: bold;
+    color: var(--third-color);
+}
+
+td{
+    font-weight: 500;
+    color: var(--fourth-color);
+}
+
+td, th{
+    padding: 1%;
+}
