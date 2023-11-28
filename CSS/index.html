@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <!-- remixIcon -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <!-- styleSheet -->
+        <link rel="stylesheet" href="../stylesheet.css">
+        <link rel="stylesheet" href="table.css">
+        <title>CSS</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <i class="ri-terminal-box-fill"></i> Ren Dev
+                    </a>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__burger"></i>
+                        <i class="ri-close-line nav__close"></i>
+                    </div>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="../index.html" class="nav__link">Home</a></li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                INF <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../HTML/index.html" class="dropdown__link">
+                                        <i class="ri-html5-line"></i> HTML
+                                    </a>
+                                </li>
+      
+                                <li>
+                                    <a href="../CSS/index.html" class="dropdown__link">
+                                        <i class="ri-css3-line"></i> CSS
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                MTKL <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../Lingkaran/index.html" class="dropdown__link">
+                                        <i class="ri-checkbox-blank-circle-line"></i> Lingkaran
+                                    </a>
+                                </li>
+      
+                                <li class="dropdown__subitem">
+                                    <div class="dropdown__link">
+                                        <i class="ri-line-chart-line"></i> Garis <i class="ri-add-line dropdown__add"></i>
+                                    </div>
+                                    <ul class="dropdown__submenu">
+                                        <li>
+                                            <a href="../Garis-Polar/index.html" class="dropdown__sublink">Garis Polar</a>
+                                        </li>
+      
+                                        <li>
+                                            <a href="../Garis-Singgung/index.html" class="dropdown__sublink">Garis Singgung</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                FIS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../Gaya-Gravitasi/index.html" class="dropdown__link">
+                                        <i class="ri-planet-line"></i> Gaya Gravitasi
+                                    </a>
+                                </li>
+      
+                                <li>
+                                    <a href="../Usaha-Energi/index.html" class="dropdown__link">
+                                        <i class="ri-lightbulb-flash-line"></i> Usaha & Energi
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                MTK <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../Statistika/index.html" class="dropdown__link">
+                                        <i class="ri-bar-chart-fill"></i> Statistika
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="../Matriks/index.html" class="dropdown__link">
+                                        <i class="ri-bar-chart-fill"></i> Matriks
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li class="dropdown__item">
+                            <div href="#" class="nav__link">
+                                Grammar <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+      
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="../PassiveVoice/index.html" class="dropdown__link">
+                                        <i class="ri-paragraph"></i> Passive Voice
+                                    </a>
+                                </li>
+      
+                                <li>
+                                    <a href="../IndirectSpeech/index.html" class="dropdown__link">
+                                        <i class="ri-chat-quote-line"></i> Indirect Speech
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+      
+                        <li><a href="../AboutMe/index.html" class="nav__link">About Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="heading">
+            <h1 id="title"><span class="auto-type"></h1>
+        </div>
+
+        <div class="main">
+            <div class="row">
+                <div class="leftcolumn">
+                    <div id="c1" class="card reveal">
+                        <div class="title">CSS Syntax</div>
+                        <div class="lineh"></div>
+                        <div class="center">
+<pre>
+Selector{Property: Value;}
+i. e. 
+h1{color: blue; font-size: 32px;}
+</pre>
+                        </div>
+                    </div>
+                    <div id="c2" class="card reveal">
+                        <div class="title">CSS Basic Selector</div>
+                        <div class="lineh"></div>
+                        <div class="editor">
+                            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="OJrvawG" data-user="Aaron-Hartono" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                <span>See the Pen <a href="https://codepen.io/Aaron-Hartono/pen/OJrvawG">
+                                CSS Basic</a> by Aaron Hartono (<a href="https://codepen.io/Aaron-Hartono">@Aaron-Hartono</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                            </p>
+                            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                        </div>
+                    </div>
+                    <div id="c3" class="card reveal">
+                        <div class="title">How to Add CSS</div>
+                        <div class="lineh"></div>
+                        <table>
+                            <tr>
+                                <th>External</th>
+                                <th>Internal</th>
+                                <th>Inline</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="editor">
+                                        <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="poqLQXb" data-user="Aaron-Hartono" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                            <span>See the Pen <a href="https://codepen.io/Aaron-Hartono/pen/poqLQXb">
+                                            External CSS</a> by Aaron Hartono (<a href="https://codepen.io/Aaron-Hartono">@Aaron-Hartono</a>)
+                                            on <a href="https://codepen.io">CodePen</a>.</span>
+                                        </p>
+                                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOZeQVJ" data-user="Aaron-Hartono" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                        <span>See the Pen <a href="https://codepen.io/Aaron-Hartono/pen/gOZeQVJ">
+                                        Internal CSS</a> by Aaron Hartono (<a href="https://codepen.io/Aaron-Hartono">@Aaron-Hartono</a>)
+                                        on <a href="https://codepen.io">CodePen</a>.</span>
+                                    </p>
+                                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                                </td>
+                                <td>
+                                    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="LYMdMPr" data-user="Aaron-Hartono" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                        <span>See the Pen <a href="https://codepen.io/Aaron-Hartono/pen/LYMdMPr">
+                                        Inline CSS</a> by Aaron Hartono (<a href="https://codepen.io/Aaron-Hartono">@Aaron-Hartono</a>)
+                                        on <a href="https://codepen.io">CodePen</a>.</span>
+                                    </p>
+                                    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="rightcolumn">
+                    <div class="card reveal" id="about">
+                        <h2 style="text-align: center;">About Me</h2>
+                        <div class="center">
+                        <img id="img" src="../img/me.jpg">
+                        </div>
+                        <p style="text-align: center;">Mathematician</p>
+                        <p style="text-align: center;">Python Developer</p>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Contents</h3>
+                        <ol type="1" class="list">
+                            <li><a href="#c1">CSS Syntax</a></li>
+                            <li><a href="#c2">CSS Basic Selector</a></li>
+                            <li><a href="#c3">How to Add CSS</a></li>
+                        </ol>
+                    </div>
+                    <div class="card reveal">
+                        <h3>References</h3>
+                        <ol type="1" class="list">
+                            <li><a href="https://www.w3schools.com/css/default.asp">W3schools</a></li>
+                            <li><a href="https://codepen.io/">Codepen</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li><a href="https://wa.me/628159293778/"><i class="ri-whatsapp-line"></i></a></li>
+                <li><a href="https://www.instagram.com/aaronh28/"><i class="ri-instagram-line"></i></a></li>
+                <li><a href="https://github.com/44120N"><i class="ri-github-fill"></i></a></li>
+            </ul>
+            <p style="margin-bottom: 0;">© Copyright 2023 | All Rights Reserved</p>
+            <p>Aaron Hartono</p>
+        </footer>
+        
+        <!-- navBar -->
+        <script src="../JS/navbar.js"></script>
+
+        <!-- autoType -->
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["CSS"],
+                typeSpeed: 50,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+
+        <!-- animationReveal -->
+        <script src="../JS/animation.js"></script>
+    </body>
+</html>
