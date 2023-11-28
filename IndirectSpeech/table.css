@@ -7,7 +7,7 @@
     background: url(header.png);
     background-size: cover;
     background-position: center center;
-    color: var(--first-color);
+    color: var(--third-color);
     height: 100vh;
 }
 
